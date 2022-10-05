@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desafio #</title>
+
+        <!-- Normalize css -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+<main>
+<div class="card">
+    <img src="" alt="">
+    <h2>Producto</h2>
+    <input type="number" name="" id="quantity">
+    <input type="color" name="" id="color">
+    <p>Precio: $<span id="price">10000</span></p>
+    <button id="btn">Calcular Total</button>
+
+
+</div>
+<div class="result">
+    <p>Total: $<span id="totalPrice">0</span></p>
+    <p>Cantidad: <span id="totalQuantity"></span></p>
+    <p>Color:</p>
+    <div class="color" id="selectedColor"></div>
+</div>
+
+</main>
+<script src="assets/js/main.js"></script>
+    </body>
+</html>
