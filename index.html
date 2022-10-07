@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Desafio #</title>
+        <title>Calculando el total / M3-D1</title>
 
         <!-- Normalize css -->
         <link
@@ -15,28 +15,38 @@
             referrerpolicy="no-referrer"
         />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-<main>
-<div class="card">
-    <img src="" alt="">
-    <h2>Producto</h2>
-    <input type="number" name="" id="quantity">
-    <input type="color" name="" id="color">
-    <p>Precio: $<span id="price">10000</span></p>
-    <button id="btn">Calcular Total</button>
-
-
-</div>
-<div class="result">
-    <p>Total: $<span id="totalPrice">0</span></p>
-    <p>Cantidad: <span id="totalQuantity"></span></p>
-    <p>Color:</p>
-    <div class="color" id="selectedColor"></div>
-</div>
-
-</main>
-<script src="assets/js/main.js"></script>
+        <main>
+            <div class="form">
+                <img src="assets/img/product.jpg" alt="" />
+                <h2>Control Wireless</h2>
+                <input
+                    type="number"
+                    name="number"
+                    id="quantity"
+                    min="1"
+                    value="1"
+                />
+                <input type="color" name="color" id="color" />
+                <p><b>Precio:</b> $70.000</p>
+                <button id="btn">Calcular Total</button>
+            </div>
+            <div class="result">
+                <p><b>Total:</b> $<span id="totalPrice">0</span></p>
+                <p><b>Cantidad:</b> <span id="totalQuantity"></span></p>
+                <p><b>Color:</b></p>
+                <div class="color" id="selectedColor"></div>
+            </div>
+        </main>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
