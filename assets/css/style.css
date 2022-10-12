@@ -19,51 +19,51 @@ main {
     border-radius: 12px;
     width: max-content;
     background: #fff;
-    box-shadow:5px 12px 27px -7px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 12px 27px -7px rgba(0, 0, 0, 0.25);
 }
 
-.form{
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.form img{
-  width: 300px;
+.form img {
+    width: 300px;
 }
 
-input{
-  border-radius: 2px;
-  border: 1px solid #c2c2c2;
-  height: 2rem;
+input {
+    border-radius: 2px;
+    border: 1px solid #c2c2c2;
+    height: 2rem;
 }
 
-button{
-  border-radius: 10px;
-  border: none;
-  background: #0b5ed7;
-  color: #fff;
-  padding: .8rem 1rem;
-  cursor: pointer;
-  border: 1px solid #0b5ed7;
+button {
+    border-radius: 10px;
+    border: none;
+    background: #0b5ed7;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: 1px solid #0b5ed7;
 }
 
-button:hover{
-  background: #fff;
-  color: #0b5ed7;
-  border: 1px solid #0b5ed7;
+button:hover {
+    background: #fff;
+    color: #0b5ed7;
+    border: 1px solid #0b5ed7;
 }
 
 .result {
-  display: flex;
-  flex-direction: column;
-  min-width: 200px;
-  gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    gap: 1.2rem;
 }
 
 .color {
-  width: 50px;
-  height: 50px;
-  border: 1px solid #000;
-  border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
 }
